@@ -39,7 +39,7 @@ Example Playbook
     - hosts: servers
       tasks:
          - include_role:
-             name: tvartom.firewalld
+             name: tvartom.firewall
            var:
              firewall:
                 extra_ports: []
