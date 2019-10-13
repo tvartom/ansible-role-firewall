@@ -42,7 +42,7 @@ Example Playbook
              name: tvartom.firewall
            var:
              firewall:
-                extra_ports: []
+                extra_ports:
                   - port: 9999
                     protocol: tcp
                     comment: "My service"
