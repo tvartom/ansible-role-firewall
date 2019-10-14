@@ -1,4 +1,4 @@
-ansible-role-firewall
+tvartom.firewall
 =====================
 
 Setup firewalld for CentOS 7 as an Ansible-role.
@@ -10,8 +10,7 @@ Create `requirements.yml` in your ansible playbook-folder.
 
     ---
     # Documentation:
-    # https://docs.ansible.com/ansible/latest/reference_appendices/galaxy.html#installing-multiple-roles-
-    
+    # https://docs.ansible.com/ansible/latest/reference_appendices/galaxy.html#installing-multiple-roles-from-a-file
     
     - name: tvartom.firewall
       src: https://github.com/tvartom/ansible-role-firewall
