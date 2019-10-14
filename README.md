@@ -1,7 +1,7 @@
 tvartom.firewall
 =====================
 
-Setup firewalld for CentOS 7 as an Ansible-role.
+Setup firewalld for CentOS 7 as an Ansible-role:
 
 Install role
 ------------
